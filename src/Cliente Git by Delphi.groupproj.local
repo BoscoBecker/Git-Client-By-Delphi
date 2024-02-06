@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2024/02/04 22:05:21.593,D:\Projetos\Delphi\Git Client By Delphi\src\ProjectGroup1.groupproj=C:\Users\Usuário\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj</Transaction>
+    <Transaction>2024/02/04 22:05:40.073,D:\Projetos\Delphi\Git Client By Delphi\src\Cliente Git by Delphi.groupproj=D:\Projetos\Delphi\Git Client By Delphi\src\ProjectGroup1.groupproj</Transaction>
+  </Transactions>
+  <Default.Personality>
+    <Projects ActiveProject="D:\Projetos\Delphi\Git Client By Delphi\src\GitCliente.dproj"/>
+  </Default.Personality>
+</BorlandProject>

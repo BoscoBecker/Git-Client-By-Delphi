@@ -1,0 +1,37 @@
+﻿unit Git.View.Repositorios.Adicionar;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TForm2 = class(TForm)
+    Panel1: TPanel;
+    Button1: TButton;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Button2: TButton;
+    procedure Button1Click(Sender: TObject);
+  private
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+uses FileCtrl;
+
+procedure TForm2.Button1Click(Sender: TObject);
+begin
+  GitFolderExists(Edit1.Text);
+end;
+
+
+end.

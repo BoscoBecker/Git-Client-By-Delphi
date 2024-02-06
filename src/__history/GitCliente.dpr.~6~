@@ -1,0 +1,23 @@
+﻿program GitCliente;
+
+uses
+  Vcl.Forms,
+  Git.View.Repositorios.Locais in 'View\Git.View.Repositorios.Locais.pas' {Form1},
+  Git.Classe.Console.Capture in 'Classes\Git.Classe.Console.Capture.pas',
+  Git.View.Repositorios.Adicionar in 'View\Git.View.Repositorios.Adicionar.pas' {Form2},
+  Git.Classe.Folder.Adicionar in 'Classes\Git.Classe.Folder.Adicionar.pas',
+  Git.View.Repositorios.Workspace in 'View\Git.View.Repositorios.Workspace.pas' {Form3},
+  PageControlEx in 'Terceiros\TDI\PageControlEx.pas',
+  TabCloseButton in 'Terceiros\TDI\TabCloseButton.pas',
+  TDI in 'Terceiros\TDI\TDI.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  //Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TForm2, Form2);
+  Application.Run;
+end.

@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{2AFCA556-57B5-49A2-AF21-74AA16FC5F3D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="GitCliente.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Terceiros\Tabs\TbtnTabSheet.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Delphi-GitLens\POC\GitLensPOC.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="GitCliente">
+        <MSBuild Projects="GitCliente.dproj"/>
+    </Target>
+    <Target Name="GitCliente:Clean">
+        <MSBuild Projects="GitCliente.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GitCliente:Make">
+        <MSBuild Projects="GitCliente.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TbtnTabSheet">
+        <MSBuild Projects="Terceiros\Tabs\TbtnTabSheet.dproj"/>
+    </Target>
+    <Target Name="TbtnTabSheet:Clean">
+        <MSBuild Projects="Terceiros\Tabs\TbtnTabSheet.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TbtnTabSheet:Make">
+        <MSBuild Projects="Terceiros\Tabs\TbtnTabSheet.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GitLensPOC">
+        <MSBuild Projects="..\..\Delphi-GitLens\POC\GitLensPOC.dproj"/>
+    </Target>
+    <Target Name="GitLensPOC:Clean">
+        <MSBuild Projects="..\..\Delphi-GitLens\POC\GitLensPOC.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GitLensPOC:Make">
+        <MSBuild Projects="..\..\Delphi-GitLens\POC\GitLensPOC.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="GitCliente;TbtnTabSheet;GitLensPOC"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="GitCliente:Clean;TbtnTabSheet:Clean;GitLensPOC:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="GitCliente:Make;TbtnTabSheet:Make;GitLensPOC:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

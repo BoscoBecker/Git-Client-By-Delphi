@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/02/04 18:10:15.000.438,=C:\Users\Usuário\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/02/04 18:22:34.000.641,=C:\Users\Usuário\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/02/04 18:24:13.000.390,D:\Projetos\Delphi\Git By Delphi\src\View\Git.View.Repositorios.Locais.dfm=C:\Users\Usuário\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/02/04 18:24:13.000.390,D:\Projetos\Delphi\Git By Delphi\src\View\Git.View.Repositorios.Locais.pas=C:\Users\Usuário\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/02/04 18:24:37.000.856,D:\Projetos\Delphi\Git By Delphi\src\View\GitCliente.dproj=C:\Users\Usuário\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/02/04 18:24:56.000.268,D:\Projetos\Delphi\Git By Delphi\src\GitCliente.dproj=D:\Projetos\Delphi\Git By Delphi\src\View\GitCliente.dproj</Transaction>
+    <Transaction>2024/02/04 18:25:04.000.715,=D:\Projetos\Delphi\Git By Delphi\src\Classes\WvN.GitLens.Console.Capture.pas</Transaction>
+    <Transaction>2024/02/04 18:25:50.000.534,D:\Projetos\Delphi\Git By Delphi\src\Classes\Git.Classe.Console.Capture.pas=D:\Projetos\Delphi\Git By Delphi\src\Classes\WvN.GitLens.Console.Capture.pas</Transaction>
+    <Transaction>2024/02/04 18:42:34.000.134,=D:\Projetos\Delphi\Git Client By Delphi\src\Unit2.pas</Transaction>
+    <Transaction>2024/02/04 19:04:43.000.944,D:\Projetos\Delphi\Git Client By Delphi\src\View\Git.View.Repositorios.Adicionar.pas=D:\Projetos\Delphi\Git Client By Delphi\src\Unit2.pas</Transaction>
+    <Transaction>2024/02/04 19:04:43.000.944,D:\Projetos\Delphi\Git Client By Delphi\src\View\Git.View.Repositorios.Adicionar.dfm=D:\Projetos\Delphi\Git Client By Delphi\src\Unit2.dfm</Transaction>
+    <Transaction>2024/02/04 19:09:26.000.777,=D:\Projetos\Delphi\Git Client By Delphi\src\Unit1.pas</Transaction>
+    <Transaction>2024/02/04 19:14:41.000.546,D:\Projetos\Delphi\Git Client By Delphi\src\Classes\Git.Classe.Folder.Adicionar.pas=D:\Projetos\Delphi\Git Client By Delphi\src\Unit1.pas</Transaction>
+    <Transaction>2024/02/04 19:26:52.000.246,=D:\Projetos\Delphi\Git Client By Delphi\src\Unit3.pas</Transaction>
+    <Transaction>2024/02/04 19:45:55.000.858,D:\Projetos\Delphi\Git Client By Delphi\src\View\Git.View.Repositorios.Workspace.pas=D:\Projetos\Delphi\Git Client By Delphi\src\Unit3.pas</Transaction>
+    <Transaction>2024/02/04 19:45:55.000.858,D:\Projetos\Delphi\Git Client By Delphi\src\View\Git.View.Repositorios.Workspace.dfm=D:\Projetos\Delphi\Git Client By Delphi\src\Unit3.dfm</Transaction>
+    <Transaction>2024/02/04 20:14:27.000.552,=D:\Projetos\Delphi\Git Client By Delphi\src\Terceiros\TDI\PageControlEx.pas</Transaction>
+    <Transaction>2024/02/04 20:14:27.000.651,=D:\Projetos\Delphi\Git Client By Delphi\src\Terceiros\TDI\TDI.pas</Transaction>
+    <Transaction>2024/02/04 20:14:27.000.574,=D:\Projetos\Delphi\Git Client By Delphi\src\Terceiros\TDI\TabCloseButton.pas</Transaction>
+    <Transaction>2024/02/04 20:39:54.000.373,=D:\Projetos\Delphi\Git Client By Delphi\src\Unit1.pas</Transaction>
+    <Transaction>2024/02/04 20:46:33.000.084,D:\Projetos\Delphi\Git Client By Delphi\src\Unit1.pas=D:\Projetos\Delphi\Git Client By Delphi\src\Classes\Git.Classe.Pagecontrol.TabShee.pas</Transaction>
+    <Transaction>2024/02/04 20:46:54.000.154,D:\Projetos\Delphi\Git Client By Delphi\src\Classes\Git.Classe.Pagecontrol.TabShee.pas=D:\Projetos\Delphi\Git Client By Delphi\src\Classes\Git.Classe.Pagecontrol.TabSheet.pas</Transaction>
+    <Transaction>2024/02/04 20:54:27.000.860,D:\Projetos\Delphi\Git Client By Delphi\src\Classes\Git.Classe.Folder.Adicionar.pas=</Transaction>
+    <Transaction>2024/02/04 20:54:53.000.071,=D:\Projetos\Delphi\Git Client By Delphi\src\Classes\Git.Classe.Folder.Adicionar.pas</Transaction>
+    <Transaction>2024/02/04 20:55:03.000.956,D:\Projetos\Delphi\Git Client By Delphi\src\View\Git.View.Repositorios.Adicionar.pas=</Transaction>
+    <Transaction>2024/02/04 21:04:29.000.918,=D:\Projetos\Delphi\Git Client By Delphi\src\Unit1.pas</Transaction>
+    <Transaction>2024/02/04 21:04:43.000.329,D:\Projetos\Delphi\Git Client By Delphi\src\Unit1.pas=D:\Projetos\Delphi\Git Client By Delphi\src\Classes\Git.Classe.Utils.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Classes"/>
+    <File Path="Classes\Git.Classe.Console.Capture.pas"/>
+    <File Path="Classes\Git.Classe.Pagecontrol.TabSheet.pas"/>
+    <File Path="Classes\Git.Classe.Folder.Adicionar.pas"/>
+    <File Path="Classes\Git.Classe.Utils.pas"/>
+    <File Path="View"/>
+    <File Path="View\Git.View.Repositorios.Locais.pas"/>
+    <File Path="View\Git.View.Repositorios.Locais.dfm"/>
+    <File Path="View\Git.View.Repositorios.Workspace.pas"/>
+    <File Path="View\Git.View.Repositorios.Workspace.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

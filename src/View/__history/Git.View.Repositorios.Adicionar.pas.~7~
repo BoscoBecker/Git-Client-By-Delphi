@@ -1,0 +1,52 @@
+﻿unit Git.View.Repositorios.Adicionar;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TForm2 = class(TForm)
+    Panel1: TPanel;
+    Button1: TButton;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Button2: TButton;
+    procedure Button1Click(Sender: TObject);
+  private
+    FFolderGit: string;
+    FProjectName: String;
+    function GetFolderGit: string;
+    procedure SetProjectName(const Value: String);
+  public
+    Property FolderGit: string read GetFolderGit;
+    property ProjectName: String read FProjectName write SetProjectName;
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+uses FileCtrl, Git.Classe.Folder.Adicionar;
+
+procedure TForm2.Button1Click(Sender: TObject);
+begin
+  edit1.text:= TGitFindFolder.GitFolderExists;
+  SetProjectName(edit2.text);
+end;
+
+function TForm2.GetFolderGit: string;
+begin
+  result:= FFolderGit;
+end;
+
+procedure TForm2.SetProjectName(const Value: String);
+begin
+  FProjectName := Value;
+end;
+
+end.

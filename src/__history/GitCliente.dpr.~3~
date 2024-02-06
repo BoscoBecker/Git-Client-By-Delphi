@@ -1,0 +1,17 @@
+﻿program GitCliente;
+
+uses
+  Vcl.Forms,
+  Git.View.Repositorios.Locais in 'View\Git.View.Repositorios.Locais.pas' {Form1},
+  Git.Classe.Console.Capture in 'Classes\Git.Classe.Console.Capture.pas',
+  Git.View.Repositorios.Adicionar in 'View\Git.View.Repositorios.Adicionar.pas' {Form2};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  //Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
+  Application.Run;
+end.

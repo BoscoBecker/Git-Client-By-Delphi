@@ -1,0 +1,43 @@
+﻿unit Git.Classe.Folder.Adicionar;
+
+interface
+
+uses Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, System.SysUtils;
+
+Class function GitFolderExists(const Folder): Boolean;
+
+implementation
+
+{ TGitFolderUtil }
+
+class function GitFolderExists(const Folder): Boolean;
+var
+  LSR: TSearchRec;
+  LRetcode: integer;
+  LFolderGit: String;
+begin
+  result:= False;
+  with TFileOpenDialog.Create(nil) do
+  try
+    Options := [fdoPickFolders];
+    if Execute then LFolderGit:= FileName;
+    LRetcode := FindFirst(LFolderGit+'\*.*', faAnyFile, LSR);
+    while LRetcode = 0 do
+      begin
+        if LSR.Name = '.git' then
+        begin
+          result:= True;
+          FolderGit:= LFolderGit;
+          break;
+        end;
+        LRetcode := FindNext(LSR);
+      end;
+    FindClose(LSR);
+  finally
+    Free;
+  end;
+
+
+end;
+
+end.

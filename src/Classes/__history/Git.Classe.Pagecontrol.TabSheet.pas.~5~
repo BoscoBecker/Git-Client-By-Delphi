@@ -1,0 +1,28 @@
+﻿unit Git.Classe.Pagecontrol.TabSheet;
+
+interface
+
+uses ubtnTabSHeet,ComCtrls ;
+
+type
+  TGitPageControl = class
+
+  Public Class procedure AdicionaRepositorio(const Caption: string; const PageControl: TPageControl); static;
+  end;
+
+implementation
+
+class procedure TGitPageControl.AdicionaRepositorio(const Caption: string; const PageControl: TPageControl);
+var
+ tab :TBtnTabSheet;
+begin
+   tab:= TBtnTabSheet.Create(PageControl);
+   tab.Caption:= Caption;
+   tab.PageControl:= PageControl;
+   tab.Repaint;
+end;
+
+begin
+
+
+end.

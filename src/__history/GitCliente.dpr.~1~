@@ -1,0 +1,14 @@
+﻿program GitCliente;
+
+uses
+  Vcl.Forms,
+  Git.View.Repositorios.Locais in 'View\Git.View.Repositorios.Locais.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

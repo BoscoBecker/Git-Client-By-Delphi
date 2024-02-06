@@ -1,0 +1,68 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 552
+  ClientWidth = 854
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 854
+    Height = 57
+    Align = alTop
+    BevelOuter = bvNone
+    Caption = 'Adicionar repositorio'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -40
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    ExplicitLeft = -409
+    ExplicitWidth = 1033
+  end
+  object Button1: TButton
+    Left = 504
+    Top = 159
+    Width = 75
+    Height = 25
+    Caption = 'Procure'
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 128
+    Top = 160
+    Width = 353
+    Height = 23
+    TabOrder = 2
+    TextHint = 'Caminho da C'#243'pia do Trabalho'
+  end
+  object Edit2: TEdit
+    Left = 128
+    Top = 205
+    Width = 353
+    Height = 23
+    TabOrder = 3
+    TextHint = 'Nome'
+  end
+  object Button2: TButton
+    Left = 128
+    Top = 255
+    Width = 75
+    Height = 25
+    Caption = 'Adicionar'
+    TabOrder = 4
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 648
+    Top = 232
+  end
+end
